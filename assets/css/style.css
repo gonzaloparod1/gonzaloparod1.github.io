@@ -1,0 +1,309 @@
+/* Estilos generales */
+
+html {
+    scroll-behavior: smooth;
+}
+
+a:visited {
+    color: #fff;
+}
+
+body {
+    background-color: #151925;
+    color: #fff;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boton-purple {
+    background-color: #f82d97;
+    border-color: #f82d97;
+    color: #fff;
+}
+
+.boton-purple:hover {
+    background-color: #9747FF;
+    border-color: #9747FF;
+    color: #fff;
+}
+
+.boton-purple:active {
+    background-color: #f82d97;
+    border-color: #f82d97;
+}
+
+.boton-purple-outline {
+    background-color: #f82d9600;
+    border-color: #f82d97;
+    color: #fff;
+}
+
+.boton-purple-outline:hover {
+    background-color: #f82d97;
+    border-color: #f82d97;
+    color: #fff;
+}
+
+.boton-purple-outline:active {
+    background-color: #9747FF;
+    border-color: #9747FF;
+}
+
+
+/* Zooms */
+
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
+
+.zoomini {
+    transition: transform 0.3s;
+}
+
+.zoomini:hover {
+    transform: scale(1.06);
+}
+
+.color-pink {
+    color: #f82d97;
+}
+
+.color-purple {
+    color: #9747FF;
+}
+
+
+/* Modifcación del navbar */
+
+.navbar a.nav-link {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #ff57ae;
+}
+
+.navbar {
+    background-color: #151925;
+}
+
+
+/* Sección inicio */
+
+.inicio {
+    padding-bottom: 3rem;
+}
+
+.inicio h1 span {
+    font-weight: 900;
+}
+
+.inicio h1 {
+    margin-top: 19rem;
+    font-size: 3.5rem;
+}
+
+.inicio img {
+    margin-top: 6rem;
+}
+
+.inicio .btn {
+    background-color: #f82d97;
+    border-color: #f82d97;
+}
+
+.inicio .btn:active {
+    background-color: #9747FF;
+    border-color: #9747FF;
+}
+
+
+/* Sección about */
+
+#about {
+    background-color: #323846;
+    margin-top: 15rem;
+}
+
+.contenido-about {
+    padding: 12rem 0;
+}
+
+.about .iconos {
+    font-size: 5rem;
+    margin-top: 12rem;
+}
+
+.about .fa-linkedin {
+    color: #0076B2;
+}
+
+.about .btn {
+    background-color: #9747FF;
+    border-color: #9747FF;
+}
+
+.about .btn:active {
+    background-color: #f82d97;
+    border-color: #f82d97;
+}
+
+
+/* Sección Mis habilidades */
+
+.contenido-habilidades {
+    padding: 11rem 0;
+}
+
+.contenido-habilidades img {
+    width: 6rem;
+}
+
+.contenido-habilidades h1 {
+    margin-bottom: 8rem;
+}
+
+.contenido-habilidades .ronda1 {
+    margin-bottom: 5rem;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #151925;
+    --bs-tooltip-color: #fff;
+}
+
+
+/* Secciones proyectos */
+
+.proyectos {
+    background-color: #323846;
+    padding: 6rem 0;
+}
+
+.centrar-card {
+    display: flex;
+    justify-content: center;
+    /* Alinea horizontalmente */
+}
+
+.proyectos h1 {
+    margin-bottom: 4rem;
+}
+
+.zoombig {
+    transition: transform 0.8s;
+}
+
+.zoombig:hover {
+    transform: scale(1.1);
+}
+
+.proyectos h6 {
+    color: #f82d97 !important;
+}
+
+.proyectos p {
+    color: #9747FF;
+}
+
+.card {
+    background-color: #151925;
+}
+
+.proyectos .card-text {
+    font-size: 0.8rem;
+}
+
+
+/* Secciones contacto */
+
+footer {
+    padding: 5rem 0;
+}
+
+footer h1 {
+    color: #9747FF;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+footer .iconos {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .mail:hover,
+i:hover {
+    color: #f82d97;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.desarrollado-por {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 3rem;
+}
+
+
+/* Se aplica de  576 hacia abajo */
+
+@media (max-width: 576px) {
+    .inicio h1 {
+        margin-top: 8rem;
+        font-size: 3rem;
+    }
+    .inicio img {
+        margin-top: 13rem;
+        margin-bottom: 10rem;
+    }
+    #about {
+        background-color: #323846;
+        margin-top: 1rem;
+        padding-bottom: 3rem;
+    }
+    .contenido-about {
+        padding: 1rem 0;
+    }
+    .contenido-habilidades {
+        padding: 7rem 0;
+    }
+    .proyectos {
+        background-color: #323846;
+        padding: 3rem;
+    }
+    .proyectos .card {
+        margin-bottom: 3rem;
+    }
+    footer {
+        padding: 4rem 0;
+    }
+    footer h1 {
+        color: #9747FF;
+        font-weight: 900;
+        font-size: 3rem;
+    }
+    .about .iconos {
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+    .desarrollado-por {
+        text-align: center;
+        font-size: 0.6rem;
+        font-weight: 100;
+        margin-top: 3rem;
+    }
+}
