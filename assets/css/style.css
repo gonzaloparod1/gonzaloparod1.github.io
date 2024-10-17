@@ -110,6 +110,8 @@ body {
 
 .inicio img {
     margin-top: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .inicio .btn {
