@@ -17,8 +17,8 @@ body {
 }
 
 .boton-purple {
-    background-color: #f82d97;
-    border-color: #f82d97;
+    background-color: #2b8d9e;
+    border-color: #13353b;
     color: #fff;
 }
 
@@ -29,19 +29,19 @@ body {
 }
 
 .boton-purple:active {
-    background-color: #f82d97;
-    border-color: #f82d97;
+    background-color: #2b8d9e;
+    border-color: #13353b;
 }
 
 .boton-purple-outline {
     background-color: #f82d9600;
-    border-color: #f82d97;
+    border-color: #13353b;
     color: #fff;
 }
 
 .boton-purple-outline:hover {
-    background-color: #f82d97;
-    border-color: #f82d97;
+    background-color: #2b8d9e;
+    border-color: #13353b;
     color: #fff;
 }
 
@@ -70,11 +70,11 @@ body {
 }
 
 .color-pink {
-    color: #f82d97;
+    color: #2b8d9e;
 }
 
 .color-purple {
-    color: #9747FF;
+    color: #1b2bbd;
 }
 
 
@@ -85,7 +85,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #ff57ae;
+    color: #2b8d9e;
 }
 
 .navbar {
@@ -115,13 +115,13 @@ body {
 }
 
 .inicio .btn {
-    background-color: #f82d97;
-    border-color: #f82d97;
+    background-color: #2b8d9e;
+    border-color: #13353b;
 }
 
 .inicio .btn:active {
-    background-color: #9747FF;
-    border-color: #9747FF;
+    background-color: #2b8d9e;
+    border-color: #13353b;
 }
 
 
@@ -146,13 +146,13 @@ body {
 }
 
 .about .btn {
-    background-color: #9747FF;
-    border-color: #9747FF;
+    background-color: #2b8d9e;
+    border-color: #13353b;
 }
 
 .about .btn:active {
-    background-color: #f82d97;
-    border-color: #f82d97;
+    background-color: #2b8d9e;
+    border-color: #13353b;
 }
 
 
@@ -206,7 +206,7 @@ body {
 }
 
 .proyectos h6 {
-    color: #f82d97 !important;
+    color: #2b8d9e !important;
 }
 
 .proyectos p {
@@ -229,7 +229,7 @@ footer {
 }
 
 footer h1 {
-    color: #9747FF;
+    color: #2b8d9e;
     font-weight: 900;
     font-size: 4rem;
 }
@@ -245,7 +245,7 @@ footer a {
 
 footer .mail:hover,
 i:hover {
-    color: #f82d97;
+    color: #2b8d9e;
 }
 
 footer a {
@@ -294,7 +294,7 @@ footer a {
         padding: 4rem 0;
     }
     footer h1 {
-        color: #9747FF;
+        color: #2b8d9e;
         font-weight: 900;
         font-size: 3rem;
     }
