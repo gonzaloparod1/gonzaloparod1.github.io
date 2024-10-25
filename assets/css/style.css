@@ -23,8 +23,8 @@ body {
 }
 
 .boton-purple:hover {
-    background-color: #9747FF;
-    border-color: #9747FF;
+    background-color: #2b8d9e;
+    border-color: #2b8d9e;
     color: #fff;
 }
 
@@ -46,8 +46,8 @@ body {
 }
 
 .boton-purple-outline:active {
-    background-color: #9747FF;
-    border-color: #9747FF;
+    background-color: #2b8d9e;
+    border-color: #2b8d9e;
 }
 
 
