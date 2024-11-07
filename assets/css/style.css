@@ -74,7 +74,11 @@ body {
 }
 
 .color-purple {
-    color: #1b2bbd;
+    color: #306998
+}
+
+.color-yellow {
+    color: #FFD43B
 }
 
 
@@ -143,6 +147,10 @@ body {
 
 .about .fa-linkedin {
     color: #0076B2;
+}
+
+.about .fa-github {
+    color: #FFFFFF;
 }
 
 .about .btn {
